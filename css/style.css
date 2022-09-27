@@ -1,0 +1,364 @@
+/* Comon Css Start's */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.aling_center{
+    align-items: center;
+}
+ul,ol {
+    list-style: none;
+}/* common css ends here*/
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.button{
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+background-color:var(--orangecolor);
+color: #FFFFFF;
+border-radius: 10px;
+padding:  13px 41px;
+}
+:root{
+--orangecolor:#F8991C;
+}
+.heading h4{
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #F8991C;
+}
+
+.heading h1
+{
+    font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+padding-bottom: 67px;
+color: #000000;
+}
+/* nav bar strts here*/
+ nav{
+padding: 40px 46px;
+ }
+nav .logo{
+    width: 30%; 
+   
+}
+nav .menu{
+    width: 70%;
+    display: inline-block;
+    text-align:right;
+    
+}
+nav .menu ul li{
+    display: inline-block;
+    padding: 0 30px ;
+   
+}
+nav .menu ul li a{
+    font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #000000;
+
+}
+
+#banner{
+    background-color: #E5E5E5;
+}
+
+#banner .banner_cnt{
+    width: 60%;
+}
+#banner .banner_img{
+    width: 40%;
+}
+#banner .banner_img img{
+    width: 100%;
+}
+#banner .banner_cnt h4{
+    font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+
+color: #000000;
+}
+#banner .banner_cnt h1{
+    font-weight: 700;
+font-size: 45px;
+line-height: 61px;
+
+color: #000000;
+
+}
+
+
+#banner .banner_cnt p{
+font-weight: 400;
+font-size: 28px;
+line-height: 38px;
+padding:20px 0 35px 0;
+color: #000000;
+}
+
+#banner .banner_cnt ul li{
+ display:inline-block;
+
+}
+#banner .banner_cnt ul{
+   padding-top: 124px;
+   padding-left: 120px;
+}
+
+
+#banner .banner_cnt ul li a{
+   color: #4267B2;
+   padding: 0 5px;
+}
+
+
+/* nav bar ends here*/
+
+#about .aboutimg{
+    background-size: cover;
+    width: 40%;
+    padding-top:77px ;
+    padding-right:40px ;
+}
+#about .abouttext{
+    width: 60%;
+    padding-top:77px;
+}
+#about .abouttext h4{
+    font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color:var(--orangecolor);
+
+}
+#about{
+    padding: 103px 0;
+}
+#about .abouttext h1
+{
+    font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+padding-bottom: 39px;
+color: #000000;
+}
+#about .abouttext p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+text-align: justify;
+color: #000000;
+padding-bottom: 46px;
+}
+#about .abouttext a:nth-last-child(2){
+background-color: white;
+color: #000000;
+margin-left: 30px;
+border: 1px solid var(--orangecolor);
+}
+
+#about .photo .img{
+    padding: 40px 10px 30px 0;
+}
+#Specializing h4{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color:var(--orangecolor);
+}
+#Specializing{
+    background-color:#F8F8F8; 
+    padding: 54px 0;
+}
+
+#Specializing h1{
+    font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+
+color: #000000;
+}
+#Specializing .cardcnt{
+   width: 33.33%;
+}
+#Specializing .cardcnt h1{
+   font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+color: var(--orangecolor); 
+padding-bottom: 10px;
+}
+#Specializing .cardcnt p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+}
+#Specializing .cardcnt img{
+    padding-left: 55px;
+    padding-top: 17px;
+}
+#Specializing .cardcnt{
+  padding-right: 200px;
+}
+
+#education{
+    padding: 100px 0;
+}
+
+#education .heading h4{
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #F8991C;
+}
+
+#education .heading h1
+{
+    font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+padding-bottom: 67px;
+color: #000000;
+}
+
+#education{
+  background-color:white;
+}
+#education .educationcnt {
+    width: calc(33.33% - 20px);
+    margin:0 10px ;
+    padding: 50px ;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+#education .educationcnt p{
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+padding: 5px 0;
+color:#000000;  
+text-align: center;
+}
+#education .educationcnt h3{
+    font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color:#000000;
+}
+#education .educationcnt span{
+    color: var(--orangecolor);
+    padding-right: 2px;
+}
+#mywork{
+    background-color: #F8F8F8;
+    padding: 45px 0;
+}
+
+#TESTIMONIAL{
+    padding: 103px 0 92px 0;
+   
+}
+#TESTIMONIAL .TESTIMONIA_card{
+ width: calc(50% - 34px);
+  margin: 0 17px;
+background: #FFFFFF;
+box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+padding: 35px;
+}
+#TESTIMONIAL .TESTIMONIA_card .textcard{
+    padding-left: 15px;
+   
+}
+
+#TESTIMONIAL .TESTIMONIA_card h1
+{
+font-weight: 500;
+font-size: 28px;
+line-height: 38px;
+
+color: #000000; }
+
+#TESTIMONIAL .TESTIMONIA_card h4{
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+}
+
+
+#TESTIMONIAL .TESTIMONIA_card p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+padding: 25px 0;
+}
+#BLOG_POST{
+    padding: 70px 0 38px 0;
+    background-color:#F8F8F8;
+}
+
+#BLOG_POST .blogcard{
+  width: calc(33.33% - 22px);
+margin: 0 11px;
+  background: #FFFFFF;
+  box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+
+
+}
+#BLOG_POST .blogcard img{
+    width: 100%;
+}
+#BLOG_POST .blogcard h1{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    padding: 25px 0;
+ }
+ #BLOG_POST .blogcard p{
+    padding: 0 18px;
+    font-weight: 300;
+font-size: 16px;
+line-height: 22px;
+text-align: justify;
+color: #000000;
+ }
+ #BLOG_POST .blogcard a{
+    text-align: center;
+    padding: 30px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+ }
